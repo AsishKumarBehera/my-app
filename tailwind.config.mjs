@@ -8,9 +8,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightHover: '#fcf4ff',
+        darkHover: '#2a004a',
+        darkThem: '#11001f',
       },
+      fontFamily: {
+        Outfit: ["Outfit", "sans-serif"],
+        Ovo: ["Ovo", "serif"]
+      },
+      boxShadow: {
+        'black' : '3px 3px 0 #000',
+        'white' : '3px 3px 0 #fff',
+      }
     },
   },
   plugins: [],
