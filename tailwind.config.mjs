@@ -10,17 +10,21 @@ export default {
       colors: {
         lightHover: '#fcf4ff',
         darkHover: '#2a004a',
-        darkThem: '#11001f',
+        darkTheme: '#11001f',
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
         Ovo: ["Ovo", "serif"]
       },
       boxShadow: {
-        'black' : '3px 3px 0 #000',
-        'white' : '3px 3px 0 #fff',
+        'black' : '4px 4px 0 #000',
+        'white' : '4px 4px 0 #fff',
+      },
+      gridTemplateColumns: {
+        'auto' : 'repeat(auto-fit, minmax(200px, 1fr))'
       }
     },
   },
+  darkMode: 'selector',
   plugins: [],
 };
